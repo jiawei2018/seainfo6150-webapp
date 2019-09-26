@@ -44,7 +44,7 @@ const Article = () => {
             </p>
             <p>
             The inspiration gallery, which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.
-            </p>
+            </p>npm
         </section>
 
         <section>

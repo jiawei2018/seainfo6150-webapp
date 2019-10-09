@@ -1,4 +1,6 @@
 import React from "react";
+import box from "../Style/ArticleListItem.module.css";
+import bton from "../Style/SlugButton.module.css";
 
 class ArticleListItem extends React.Component {
     constructor() {
@@ -7,12 +9,12 @@ class ArticleListItem extends React.Component {
 
     render() {
         return (
-            <div>
-                <h2>{this.props.article.title}</h2>
-                <p>{this.props.article.shortText}</p>
-                <time>{this.props.article.pubDate}</time>
-                <button onClick={() => {javaScript:alert(this.props.article.slug)}}>
-                    show article slug
+            <div className= {box.outBox}>
+                <h2 className= {box.h2Style}>{this.props.article.title}</h2>
+                <p className={box.title}>{this.props.article.shortText}</p>
+                <time className= {box.timeStyle}>{this.props.article.pubDate}</time>
+                <button className= {bton.authorButton} onClick={() => {javaScript:alert(this.props.article.slug)}}>
+                    {this.props.article.author}
                 </button>
             </div>
         );

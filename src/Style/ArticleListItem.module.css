@@ -1,0 +1,31 @@
+.outBox{
+    border : 2px solid red;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.h2Style{
+    /*font-family: "Arial Black";*/
+    font-weight: bolder;
+    color  : red;
+    font-color : red;
+    font-size: 35px;
+}
+
+.timeStyle{
+    /*font-family: "Arial Black";*/
+    font-weight: bold;
+    font-size : 15px;
+}
+
+.title{
+    font-family: "Arial";
+    font-size : 20px;
+}
+
+
+

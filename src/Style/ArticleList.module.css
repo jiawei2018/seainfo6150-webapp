@@ -1,0 +1,11 @@
+.main{
+    margin : 20px;
+
+    background-color: lightgray;
+    font-family: Arial;
+    padding: 20px;
+}
+
+ul li{
+    list-style-type:none;
+}

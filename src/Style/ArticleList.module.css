@@ -4,8 +4,14 @@
     background-color: lightgray;
     font-family: Arial;
     padding: 20px;
+    border: dashed;
+    border-radius: 10px;
 }
 
 ul li{
     list-style-type:none;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 6px  6px  6px  6px gray;
 }
+

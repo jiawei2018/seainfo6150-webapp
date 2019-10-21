@@ -11,7 +11,7 @@ const ArticleList = props => {
   return (
     <ul className = {page.main}>
       {props.articles.map(article => (
-        <li key={articles}> {<ArticleListItem article = {article}></ArticleListItem>}  </li>
+        <li className={page.shadow} key={articles}> {<ArticleListItem article = {article}></ArticleListItem>}  </li>
       ))}
     </ul>
   );

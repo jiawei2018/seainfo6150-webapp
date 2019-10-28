@@ -1,4 +1,7 @@
 .main{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+
     margin : 20px;
 
     background-color: lightgray;
@@ -9,8 +12,10 @@
 }
 
 ul li{
+    margin : 25px;
+    height: 480px;
     list-style-type:none;
-    margin-bottom: 35px;
+    margin-top: 25px;
     border-radius: 10px;
     box-shadow: 6px  6px  6px  6px gray;
 }

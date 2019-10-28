@@ -19,13 +19,13 @@ class ArticleListItem extends React.Component {
 
                 <div className={box.innerBox}>
                     <h2 className= {box.h2Style}>{this.props.article.title}</h2>
-                    <p className={box.title}>{this.props.article.shortText}</p>
+                    <p className={box.shortText}>{this.props.article.shortText}</p>
                     <time className= {box.timeStyle} dateTime={this.props.article.pubDate}>{this.props.article.pubDate}</time>
-                     <div className={box.button}>
-                    <button className= {bton.authorButton} onClick={() => {javaScript:alert(this.props.article.slug)}}>
-                    {this.props.article.author}
-                    </button>
-                    </div>
+                       <div className={box.button}>
+                       <button className= {bton.authorButton} onClick={() => {javaScript:alert(this.props.article.slug)}}>
+                              {this.props.article.author}
+                       </button>
+                       </div>
                 </div>
             </div>
         );

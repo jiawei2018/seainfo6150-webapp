@@ -1,12 +1,11 @@
 .authorButton{
-    /*margin-bottom: 40px;*/
-    border: 0px;
+    /*margin-bottom: 20px;*/
+    border: 1px solid white;
     border-radius: 10px;
     background-color: red;
     color: white;
     /*display: inline-block;*/
-    float: right;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 40px;
-    max-width: 300px;
+    min-width: 100%;
 }

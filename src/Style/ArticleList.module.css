@@ -1,14 +1,25 @@
 .main{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-
+    min-width:300px;
     margin : 20px;
-
     background-color: lightgray;
     font-family: Arial;
     padding: 20px;
     border: dashed;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 650px ) and (max-width: 900px){
+    .main{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .main{
+        grid-template-columns: auto;
+    }
 }
 
 ul li{
